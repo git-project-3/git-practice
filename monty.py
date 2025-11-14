@@ -4,7 +4,9 @@ def monty_hall_simulation(trials=100_000):
     stay_wins = 0
     switch_wins = 0
 
-# for문 (hhs)
+    #for문 (hhs)
+    for _ in range(trials):
+        break
 
     return stay_wins, switch_wins
 
